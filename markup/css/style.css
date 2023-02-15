@@ -2,14 +2,19 @@
     box-sizing: border-box;
 }
 
+body{
+margin: auto;
+}
+
 .box0 {
     position: relative;
     width: 1920px;
     height: 2464px;
     background: #F9F9F9;
+    margin: auto;
 }
 
-.box1{
+.box1 {
     width: 1920px;
     height: 700px;
     background: #eeeff1;
@@ -17,6 +22,35 @@
     font-family: 'Roboto', Arial , sans-serif;
     font-weight: 400;
 }
+
+.item1{
+    padding-left: 0;
+    font-family:'Roboto', Arial , sans-serif;
+    font-weight: 500;
+    color: #34547A;
+}
+
+.box0-1>p{
+    font-family: 'Roboto', Arial , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.button {
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    text-align: center;
+    padding-top: 25px;
+    color: #EEEFF1;
+    margin-top: 65px;
+    border: 0;
+}
+
 
 h1{
     font-family: 'Roboto', Arial , sans-serif;
@@ -28,14 +62,6 @@ h1{
     padding-top: 100px;
 }
 
-p{
-    font-family: 'Roboto', Arial , sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
-}
 
 .about{
     font-family: 'Roboto', Arial , sans-serif;
@@ -46,26 +72,13 @@ p{
     padding-top: 50px;
 }
 
-.lorem1{
-    font-family: 'Roboto', Arial , sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #727272;
-}
 
 
 ul{
     padding-left: 0;
 }
 
-.item1{
-    padding-left: 0;
-    font-family:'Roboto', Arial , sans-serif;
-    font-weight: 500;
-    color: #34547A;
-}
+
 
 a{
     text-decoration: none;
@@ -76,6 +89,16 @@ li {
     display: inline-block; 
     padding-left: 40px;
     padding-top: 50px;
+}
+
+.box1-1>p{
+    font-family: 'Roboto', Arial , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
 }
 
 .box2{
@@ -112,6 +135,16 @@ img{
     font-family: 'Roboto', Arial , sans-serif;
 }
 
+.box3>p{
+    font-family: 'Roboto', Arial , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+}
+
 video{
     position: absolute;
     width: 1110px;
@@ -131,16 +164,6 @@ video{
     padding-top: 70px;
 }
 
-.lorem2{
-    font-family: 'Roboto', Arial , sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    padding-top: 30px;
-    color: #727272;
-}
 
 .box4{
     width: 1920px;
